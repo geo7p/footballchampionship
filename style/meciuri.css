@@ -1,0 +1,230 @@
+body
+{
+    background-image:url("footballcourt.jpg");
+    background-position:center;
+    background-size:cover;
+}
+
+.head
+{
+    margin-top:20px;
+}
+
+@keyframes transition
+{
+    0%
+    {
+        opacity:0%;
+        width:600px;
+        letter-spacing:-1px;
+    }
+    100%
+    {
+        opacity:100%;
+        box-shadow:0 0 20px white;
+    }
+}
+
+.welcome
+{
+    font-family:'Montserrat';
+    border-radius:20px;
+    margin-top:50px;
+    font-size:50px;
+    text-align:center;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    background:white;
+    color:#aa0000;
+    animation:transition 2s forwards;
+}
+
+.logo
+{
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.llogo
+{
+    margin-left:25%;
+    margin-right:25%;
+    width:50%;
+}
+
+.meniu
+{
+    border-radius:20px;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+}
+.button
+{
+    border:2px solid white;
+    border-radius:20px;
+    width:150px;
+    font-family:'Montserrat';
+    font-size:20px;
+    text-align:center;
+    color:white;
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.buttonClicked
+{
+    border:2px solid white;
+    border-radius:20px;
+    width:150px;
+    font-family:'Montserrat';
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow:0 0 20px white;
+    background:#aa0000;
+
+}
+.button:hover
+{
+    background:#aa0000;
+    color:white;
+    box-shadow:0 0 20px white;
+    transition:0.25s ease-in-out;
+}
+a
+{
+    text-decoration:none;
+    font-family:'Montserrat';
+    font-size:20px;
+    text-align:center;
+    color:white;
+}
+
+.container
+{
+    margin-top:25px;
+}
+
+.meci
+{
+    padding-top:10px;
+    border:2px solid white;
+    border-radius:20px;
+    width:750px;
+    height:120px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.steag1
+{
+    float:left;
+    margin-left:50px;
+    width:300px;
+}
+
+.steag2
+{
+    float:right;
+    margin-right:50px;
+    width:300px;
+}
+
+.scor1
+{
+    font-family:'Montserrat';
+    font-size:50px;
+    color:white;
+    float:right;
+}
+
+.scor2
+{
+    font-family:'Montserrat';
+    font-size:50px;
+    color:white;
+    float:left;
+}
+
+.echipa1
+{
+    float:left;
+    width:350px;
+}
+
+.echipa2
+{
+    float:right;
+    width:350px;
+}
+
+.denumiretara1
+{
+    font-family:'Montserrat';
+    font-size:20px;
+    color:white;
+    float:left;
+    margin-left:70px;
+}
+
+.denumiretara2
+{
+    font-family:'Montserrat';
+    font-size:20px;
+    color:white;
+    float:right;
+    margin-right:70px;
+}
+
+.stadion
+{
+    font-family:'Montserrat';
+    font-size:10px;
+    color:white;
+    text-align:center;
+    float:left;
+    width:100%;
+}
+
+.data
+{
+    font-family:'Montserrat';
+    font-size:10px;
+    color:white;
+    text-align:center;
+    float:left;
+    width:100%;
+}
+
+#add
+{
+    border:2px solid white;
+    border-radius:20px;
+    background:none;
+    font-family:'Montserrat';
+    font-size:20px;
+    text-align:center;
+    color:white;
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+}
+
+label
+{
+    font-family:'Montserrat';
+    font-size:20px;
+    color:white;
+}

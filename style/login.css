@@ -1,0 +1,266 @@
+body
+{
+    background-image:url("footballcourt.jpg");
+    background-position:center;
+    background-size:cover;
+}
+
+.head
+{
+    margin-top:20px;
+}
+
+@keyframes transition
+{
+    0%
+    {
+        opacity:0%;
+        width:600px;
+        letter-spacing:-1px;
+    }
+    100%
+    {
+        opacity:100%;
+        box-shadow:0 0 20px white;
+    }
+}
+
+.welcome
+{
+    font-family:'Montserrat';
+    border-radius:20px;
+    margin-top:50px;
+    font-size:50px;
+    text-align:center;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    background:white;
+    color:#aa0000;
+    animation:transition 2s forwards;
+}
+
+.logo
+{
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.llogo
+{
+    margin-left:25%;
+    margin-right:25%;
+    width:50%;
+}
+
+.loginbox
+{
+    border:2px solid white;
+    padding-left:10px;
+    padding-right:10px;
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20px;
+}
+
+#username
+{
+    background:none;
+    border:2px solid white;
+    border-radius:20px;
+    font-family:'Montserrat';
+    color:white;
+    font-size:25px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.username
+{
+    font-family:'Montserrat';
+    color:white;
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    margin-top:10px;
+    text-align:center;
+}
+
+#parola
+{
+    background:none;
+    border:2px solid white;
+    border-radius:20px;
+    font-family:'Montserrat';
+    color:white;
+    font-size:25px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+.parola
+{
+    font-family:'Montserrat';
+    color:white;
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    margin-top:10px;
+    text-align:center;
+}
+
+#submit
+{
+    font-family:'Montserrat';
+    border:2px solid white;
+    border-radius:20px;
+    background:none;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    width:100px;
+}
+
+#submit:hover
+{
+    background:#aa0000;
+    color:white;
+    box-shadow:0 0 20px white;
+    transition:0.25s ease-in-out;
+}
+
+.DenumireGrupa
+{
+    font-size:20px;
+    font-family:'Montserrat';
+    font-weight:bold;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    text-align:center;
+    margin-top:20px;
+}
+.grupa
+{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20px;
+}
+.echipa
+{
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:10px;
+    width:100%;
+    height:100px;
+}
+.steag
+{
+    border-radius:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    float:left;
+}
+.info
+{
+    float:left;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.nume
+{
+    font-family:'Montserrat';
+    color:white;
+    font-weight:bold;
+    font-size:25px;
+}
+.prima
+{
+    font-family:'Montserrat';
+    color:white;
+    font-size:15px;
+    font-weight:normal;
+}
+.rez
+{
+    font-family:'Montserrat';
+    color:white;
+    font-size:15px;
+    font-weight:normal;
+}
+
+.echipa:hover
+{
+    background:#aa0000;
+    transition:0.25s ease-in-out;
+}
+
+.flag:hover
+{
+    box-shadow:0 0 50px white;
+    transition: 0.25s ease-in-out;
+}
+
+.meniu
+{
+    border-radius:20px;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+}
+.button
+{
+    border:2px solid white;
+    border-radius:20px;
+    width:150px;
+    font-family:'Montserrat';
+    font-size:20px;
+    text-align:center;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.buttonClicked
+{
+    border:2px solid white;
+    border-radius:20px;
+    width:150px;
+    font-family:'Montserrat';
+    font-size:20px;
+    text-align:center;
+    color:white;
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow:0 0 20px white;
+
+}
+.button:hover
+{
+    background:#aa0000;
+    color:white;
+    box-shadow:0 0 20px white;
+    transition:0.25s ease-in-out;
+}
+a
+{
+    text-decoration:none;
+    font-family:'Montserrat';
+    font-size:20px;
+    text-align:center;
+    color:white;
+}
