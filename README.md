@@ -10,4 +10,4 @@
 
 • XAMPP is needed to run the Web Application
 
-• Username: System, Password: g.1234eo
+• Username: System, Password: 1234
