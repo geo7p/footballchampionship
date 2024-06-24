@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="style/login.css">
         <?php
             $user="System";
-            $pass="g.4367eo";
+            $pass="g.1234eo";
             $host="localhost/XE";
             echo 
             "<div class=\"head\">
