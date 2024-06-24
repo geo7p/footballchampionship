@@ -9,3 +9,5 @@
 • The Web Application has been developed using HTML, CSS and JavaScript.
 
 • XAMPP is needed to run the Web Application
+
+• Username: System, Password: g.1234eo
